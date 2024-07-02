@@ -1,0 +1,36 @@
+
+img{
+    /* size: 30px; */
+    height: 200;
+    width: 50%;
+
+    filter: blur(5px);
+}
+:root{
+    --red-color:rgb(0, 255, 55);
+    --title-size:20px;
+}
+.my-class{
+    color:var(--red-color);
+    font-size: 100;
+    background-color: blueviolet;
+}
+#my-class{
+    color:var(--red-color);
+    font-size:var( --title-size);
+    background-color:purple;
+}
+li{
+    color:blueviolet;
+    font-size:var(--title-size);
+    /* background-color: blueviolet; */
+}
+.btn{
+    color:white;
+    background-color: rgb(38, 38, 163);
+    border-radius: 6px;
+    border: none;
+    padding: 4px 40px 4px 40px;
+    margin: 20px 0px 20px;
+
+}
